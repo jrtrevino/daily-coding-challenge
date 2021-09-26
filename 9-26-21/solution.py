@@ -68,7 +68,7 @@ def test_function():
         "Testing arr (bf): [{}] with k={}. Expected result: True. Calculated Result: {}"
         .format([0, 0, 5, 7], 0, brute_force([0, 0, 5, 7], 0)))
     print(
-        "Testing arr (bf): [{}] with k={}. Expected result: True. Calculated Result: {}"
+        "Testing arr (dict): [{}] with k={}. Expected result: True. Calculated Result: {}"
         .format([0, 0, 5, 7], 0, dict_implementation([0, 0, 5, 7], 0)))
     print("\n")
 
@@ -76,7 +76,7 @@ def test_function():
         "Testing arr (bf): [{}] with k={}. Expected result: True. Calculated Result: {}"
         .format([9, 18, 27, 36], 45, brute_force([9, 18, 27, 36], 45)))
     print(
-        "Testing arr (bf): [{}] with k={}. Expected result: True. Calculated Result: {}"
+        "Testing arr (dict): [{}] with k={}. Expected result: True. Calculated Result: {}"
         .format([9, 18, 27, 36], 45, dict_implementation([9, 18, 27, 36], 45)))
     print("\n")
 
@@ -84,8 +84,16 @@ def test_function():
         "Testing arr (bf): [{}] with k={}. Expected result: False. Calculated Result: {}"
         .format([9, 1, 5, 2], 18, brute_force([9, 1, 5, 2], 18)))
     print(
-        "Testing arr (bf): [{}] with k={}. Expected result: False. Calculated Result: {}"
+        "Testing arr (dict): [{}] with k={}. Expected result: False. Calculated Result: {}"
         .format([9, 1, 5, 2], 18, dict_implementation([9, 1, 5, 2], 18)))
+    print("\n")
+
+    print(
+        "Testing arr (bf): [{}] with k={}. Expected result: True. Calculated Result: {}"
+        .format([0, 0, 0, 1], 1, brute_force([0, 0, 0, 1], 1)))
+    print(
+        "Testing arr (dict): [{}] with k={}. Expected result: True. Calculated Result: {}"
+        .format([0, 0, 0, 1], 1, dict_implementation([0, 0, 0, 1], 1)))
     print("\n")
 
 
