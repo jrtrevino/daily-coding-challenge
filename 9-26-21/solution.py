@@ -1,6 +1,6 @@
 # a brute force solution attempt
 # Start at the index i of arr, calculate the required number n,
-# so that arr[i] + n = k, then search arr for that number.
+# so that arr[i] + n = k, then search arr for n.
 # Return true if two numbers add up to k, else false.
 def brute_force(arr, k):
     arr_length = len(arr)
