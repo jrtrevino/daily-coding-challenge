@@ -23,6 +23,8 @@ def solution_division(arr):
     # O(N) + O(N) = O(N)
     return product_arr
 
+# test function for results
+
 
 def test_function():
     # brute_force Then dictionary implementation pairs
